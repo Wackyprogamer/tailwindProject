@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1713fc1b17.js" crossorigin="anonymous"></script>
     <title>Netflix</title>
 
@@ -13,51 +13,195 @@
 
 <body>
 
-    <div class="container-list">
+    <div class="container mx-auto flex gap-4">
 
-        <i class="fa-solid fa-circle-play" style="color: #ff0000;"></i>
+        <div class="card flex-none w-14 backdrop-blur-md bg-white/30 rounded-ful p-5">
 
-    </div>
+            <i class="fa-solid fa-circle-play" style="color: #ff0000;"></i>
 
-    <div class="container-main">
+            <i class="fa-solid fa-qrcode" style="color: #8f96a3;"></i>
 
-        <div class="left">
+            <i class="fa-solid fa-tv" style="color: #8f96a3;"></i>
 
-            <div class="logo">
+            <i class="fa-solid fa-wifi" style="color: #8f96a3;"></i>
+
+            <i class="fa-solid fa-house" style="color: #8f96a3;"></i>
+
+            <i class="fa-solid fa-magnifying-glass" style="color: #8f96a3;"></i>
+
+        </div>
+
+        <div class="mainbox grow bg-white/30 backdrop-blur-md rounded-3xl p-5 flex">
+
+            <div class="left flex-column">
+
+                <div class="logo">
+
+                    <h1>Netflix</h1>
+
+                </div>
+
+                <div class="nav">
+
+                    <div class="browselogo flex">
+
+                        <i class="fa-solid fa-circle-play" style="color: #ff0000;"></i>
+
+
+                        <h4>Browse</h4>
+
+                    </div>
+
+                    <div class="wishlist-logo flex">
+
+                        <i class="fa-regular fa-heart" style="color: #8f96a3;"></i>
+
+                        <h4>Wishlist</h4>
+
+                    </div>
+
+                    <div class="comingsoon-logo flex">
+
+                        <i class="fa-regular fa-calendar" style="color: #8f96a3;"></i>
+
+                        <h4>Coming Soon</h4>
+
+                    </div>
+
+
+                </div>
+
+                <div class="trailer">
+
+                    <div class="trailerheader flex">
+
+                        <h4>New Trailers</h4>
+
+                        <i class="fa-solid fa-fire" style="color: #ff0a2f;"></i>
+                        
+                    </div>
+
+                    <div class="shadow">
+
+                        <div class="shadowImage">
+                            
+                            <img src="shadowimage.png">
+
+                        </div>
+
+                        <div class="shadowText flex">
+
+                            <h6>Shadow and Bone</h6>
+
+                            <i class="fa-solid fa-circle-play" style="color: #8f96a3;"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="nightAgent">
+
+                        <div class="nightAgentImage">
+
+                            <img src="nightagentphoto.png">
+
+                        </div>
+
+                        <div class="nightAgentText flex">
+
+                            <h6>The Night Agent</h6>
+
+                            <i class="fa-solid fa-circle-play" style="color: #8f96a3;"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="witcher">
+
+                        <div class="witcherImage">
+
+                            <img src="witcherPhoto.png">
+
+                        </div>
+
+                        <div class="witcherText flex">
+
+                            <h6>The Witcher</h6>
+
+                            <i class="fa-solid fa-circle-play" style="color: #8f96a3;"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="nav">
+            <div class="right grow">
 
-            </div>
+                <div class="search flex">
 
-            <div class="trailer">
+                        <div class="angles">
+
+                            <i class="fa-solid fa-angle-left" style="color: #bfc5cf;"></i>
+
+                            <i class="fa-solid fa-angle-right" style="color: #8f96a3;"></i>
+
+                        </div>
+
+                        <div class="searchbar">
+
+                            <input type="text" name="search" placeholder="Search...">
+
+                            <i class="fa-solid fa-microphone" style="color: #8f96a3;"></i>
+
+                        </div>
+
+                        <div class="notiuser flex">
+
+                            <div class="notifications">
+
+                                <i class="fa-regular fa-bell" style="color: #8f96a3;"></i>
+
+                            </div>
+
+                            <div class="userAccount">
+
+                                <div class="imageUser">
+
+                                </div>
+
+                                <div class="username flex-column">
+
+                                    <h4>Samantha G</h4>
+
+                                    <h6>@samantha</h6>
+                                
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                </div>
+
+                <div class="highlight">
+
+                </div>
+
+                <div class="popcorn">
+
+                </div>
+
+                <div class="continue">
+
+                </div>
 
             </div>
 
         </div>
-
-        <div class="right">
-
-            <div class="search">
-
-            </div>
-
-            <div class="highlight">
-
-            </div>
-
-            <div class="popcorn">
-
-            </div>
-
-            <div class="continue">
-
-            </div>
-
-        </div>
-
-    </div>
     
 </body>
 
