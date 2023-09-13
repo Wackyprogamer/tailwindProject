@@ -336,13 +336,31 @@ padding: 10px 0;
 
 .brooklyn {
 
-    width: 30%;
+    width: 40%;
 
     object-fit: cover;
 
     overflow: hidden;
 
     cursor: pointer;
+
+    position: relative;
+
+}
+
+.BrooklynText {
+    color:white;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 0.5%;
+    font-size: 20px;
+
+}
+
+.BrooklynText span {
+
+    font-size: 12px;
+    
 
 }
 
@@ -360,13 +378,15 @@ padding: 10px 0;
 
     margin-left: 10px;
 
-    width: 30%;
+    width: 40%;
 
     object-fit: cover;
 
     overflow: hidden;
 
     cursor: pointer;
+    
+    position: relative;
 
 }
 
@@ -380,17 +400,39 @@ padding: 10px 0;
 
 }
 
+.readyPlayerOneText {
+
+    color: white;
+
+    position: absolute;
+
+    margin-left: 260px;
+
+    margin-top: 7%;
+
+    font-size: 20px;
+
+}
+
+.readyPlayerOneText Span {
+
+    font-size: 12px;
+
+}
+
 .moneyHeist {
 
     margin-left: 10px;
 
-    width: 30%;
+    width: 40%;
 
     object-fit: cover;
 
     overflow: hidden;
 
     cursor: pointer;
+
+    position: relative;
 
 }
 
@@ -405,11 +447,31 @@ padding: 10px 0;
 
 }
 
+.moneyHeistText {
+
+    position: absolute;
+
+    color: white;
+
+    font-size: 20px;
+
+    margin-left: 35.5%;
+
+    margin-top: 7%;
+
+}
+
+.moneyHeistText span {
+
+    font-size: 12px;
+
+}
+
 .ashvsevil {
 
     margin-left: 10px;
 
-    width: 30%;
+    width: 40%;
 
     object-fit: cover;
 
@@ -452,7 +514,7 @@ padding: 10px 0;
 }
 .redNotice {
 
-    width: 30%;
+    width: 40%;
 
     object-fit: cover;
 
@@ -477,7 +539,7 @@ padding: 10px 0;
 
     margin-left: 10px;
 
-    width: 30%;
+    width: 40%;
 
     object-fit: cover;
 
@@ -503,7 +565,7 @@ padding: 10px 0;
 
     margin-left: 10px;
 
-    width: 30%;
+    width: 40%;
 
     object-fit: cover;
 
@@ -529,7 +591,7 @@ padding: 10px 0;
 
     margin-left: 10px;
 
-    width: 30%;
+    width: 40%;
 
     object-fit: cover;
 

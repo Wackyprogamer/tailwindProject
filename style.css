@@ -927,11 +927,24 @@ body {
 }
 
 .brooklyn {
-  width: 30%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
+}
+
+.BrooklynText {
+  color: white;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 0.5%;
+  font-size: 20px;
+}
+
+.BrooklynText span {
+  font-size: 12px;
 }
 
 .brooklyn img {
@@ -942,11 +955,12 @@ body {
 
 .readyPlayerOne {
   margin-left: 10px;
-  width: 30%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
 }
 
 .readyPlayerOne img {
@@ -955,13 +969,26 @@ body {
   height: 100%;
 }
 
+.readyPlayerOneText {
+  color: white;
+  position: absolute;
+  margin-left: 260px;
+  margin-top: 7%;
+  font-size: 20px;
+}
+
+.readyPlayerOneText Span {
+  font-size: 12px;
+}
+
 .moneyHeist {
   margin-left: 10px;
-  width: 30%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
 }
 
 .moneyHeist img {
@@ -970,9 +997,21 @@ body {
   height: 100%;
 }
 
+.moneyHeistText {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-left: 35.5%;
+  margin-top: 7%;
+}
+
+.moneyHeistText span {
+  font-size: 12px;
+}
+
 .ashvsevil {
   margin-left: 10px;
-  width: 30%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1000,7 +1039,7 @@ body {
 }
 
 .redNotice {
-  width: 30%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1015,7 +1054,7 @@ body {
 
 .extraction {
   margin-left: 10px;
-  width: 30%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1031,7 +1070,7 @@ body {
 
 .theAdamProject {
   margin-left: 10px;
-  width: 30%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1047,7 +1086,7 @@ body {
 
 .theOldGuard {
   margin-left: 10px;
-  width: 30%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
