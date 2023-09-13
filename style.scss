@@ -295,7 +295,7 @@ padding: 10px 0;
 .highlight {
 
     width: 95%;
-    height: 40%;
+    height: 45%;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -354,14 +354,16 @@ padding: 10px 0;
     margin-top: 7%;
     margin-left: 1%;
     font-size: 20px;
+    font-weight: bold;
 
 }
 
 .BrooklynText span {
 
     font-size: 12px;
-    
 
+    font-weight: lighter;
+    
 }
 
 .brooklyn img {
@@ -425,11 +427,15 @@ padding: 10px 0;
 
     font-size: 20px;
 
+    font-weight: bold;
+
 }
 
 .readyPlayerOneText Span {
 
     font-size: 12px;
+
+    font-weight: lighter;
 
 }
 
@@ -485,11 +491,15 @@ padding: 10px 0;
 
     margin-top: 7%;
 
+    font-weight: bold;
+
 }
 
 .moneyHeistText span {
 
     font-size: 12px;
+
+    font-weight: lighter;
 
 }
 
@@ -546,11 +556,15 @@ padding: 10px 0;
 
     margin-top: 7%;
 
+    font-weight: bold;
+
 }
 
 .ashvsevilText span {
 
     font-size: 12px;
+
+    font-weight: lighter;
 
 }
 
@@ -596,6 +610,8 @@ padding: 10px 0;
 
     cursor: pointer;
 
+    position: relative;
+
 
 }
 
@@ -607,6 +623,16 @@ padding: 10px 0;
 
     height: 100%;
 
+}
+
+.redNoticeText {
+
+    color:white;
+    position: absolute;
+    margin-top: 5.5%;
+    margin-left: 1%;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .extraction {
@@ -635,6 +661,16 @@ padding: 10px 0;
 
 }
 
+.extractionText {
+
+    color:white;
+    position: absolute;
+    margin-top: 5.5%;
+    margin-left: 18%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .theAdamProject {
 
     margin-left: 10px;
@@ -661,6 +697,16 @@ padding: 10px 0;
 
 }
 
+.theAdamProjectText {
+
+    color:white;
+    position: absolute;
+    margin-top: 5.5%;
+    margin-left: 35.5%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .theOldGuard {
 
     margin-left: 10px;
@@ -685,4 +731,14 @@ padding: 10px 0;
 
     height: 100%;
 
+}
+
+.oldGuardText {
+
+    color:white;
+    position: absolute;
+    margin-top: 5.5%;
+    margin-left: 53.5%;
+    font-size: 15px;
+    font-weight: bold;
 }

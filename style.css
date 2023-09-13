@@ -894,7 +894,7 @@ body {
 
 .highlight {
   width: 95%;
-  height: 40%;
+  height: 45%;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -941,10 +941,12 @@ body {
   margin-top: 7%;
   margin-left: 1%;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .BrooklynText span {
   font-size: 12px;
+  font-weight: lighter;
 }
 
 .brooklyn img {
@@ -982,10 +984,12 @@ body {
   margin-left: 270px;
   margin-top: 7%;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .readyPlayerOneText Span {
   font-size: 12px;
+  font-weight: lighter;
 }
 
 #elipsisOne {
@@ -1017,10 +1021,12 @@ body {
   font-size: 20px;
   margin-left: 35.6%;
   margin-top: 7%;
+  font-weight: bold;
 }
 
 .moneyHeistText span {
   font-size: 12px;
+  font-weight: lighter;
 }
 
 #elipsismoney {
@@ -1053,10 +1059,12 @@ body {
   font-size: 20px;
   margin-left: 53%;
   margin-top: 7%;
+  font-weight: bold;
 }
 
 .ashvsevilText span {
   font-size: 12px;
+  font-weight: lighter;
 }
 
 #elipsisEvil {
@@ -1085,12 +1093,22 @@ body {
      object-fit: cover;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
 }
 
 .redNotice img {
   border-radius: 20px;
   width: 100%;
   height: 100%;
+}
+
+.redNoticeText {
+  color: white;
+  position: absolute;
+  margin-top: 5.5%;
+  margin-left: 1%;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .extraction {
@@ -1109,6 +1127,15 @@ body {
   height: 100%;
 }
 
+.extractionText {
+  color: white;
+  position: absolute;
+  margin-top: 5.5%;
+  margin-left: 18%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .theAdamProject {
   margin-left: 10px;
   width: 50%;
@@ -1125,6 +1152,15 @@ body {
   height: 100%;
 }
 
+.theAdamProjectText {
+  color: white;
+  position: absolute;
+  margin-top: 5.5%;
+  margin-left: 35.5%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .theOldGuard {
   margin-left: 10px;
   width: 50%;
@@ -1139,4 +1175,13 @@ body {
   border-radius: 20px;
   width: 100%;
   height: 100%;
+}
+
+.oldGuardText {
+  color: white;
+  position: absolute;
+  margin-top: 5.5%;
+  margin-left: 53.5%;
+  font-size: 15px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
