@@ -927,7 +927,7 @@ body {
 }
 
 .brooklyn {
-  width: 40%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -939,7 +939,7 @@ body {
   color: white;
   position: absolute;
   margin-top: 7%;
-  margin-left: 0.5%;
+  margin-left: 1%;
   font-size: 20px;
 }
 
@@ -953,9 +953,16 @@ body {
   height: 100%;
 }
 
+#elipsisNine {
+  position: absolute;
+  margin-top: 8%;
+  font-size: 25px;
+  margin-left: 15%;
+}
+
 .readyPlayerOne {
   margin-left: 10px;
-  width: 40%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -972,7 +979,7 @@ body {
 .readyPlayerOneText {
   color: white;
   position: absolute;
-  margin-left: 260px;
+  margin-left: 270px;
   margin-top: 7%;
   font-size: 20px;
 }
@@ -981,9 +988,16 @@ body {
   font-size: 12px;
 }
 
+#elipsisOne {
+  position: absolute;
+  margin-top: 8%;
+  font-size: 25px;
+  margin-left: 32.5%;
+}
+
 .moneyHeist {
   margin-left: 10px;
-  width: 40%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1001,7 +1015,7 @@ body {
   position: absolute;
   color: white;
   font-size: 20px;
-  margin-left: 35.5%;
+  margin-left: 35.6%;
   margin-top: 7%;
 }
 
@@ -1009,20 +1023,47 @@ body {
   font-size: 12px;
 }
 
+#elipsismoney {
+  position: absolute;
+  margin-top: 8%;
+  font-size: 25px;
+  margin-left: 49.5%;
+}
+
 .ashvsevil {
   margin-left: 10px;
-  width: 40%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
   margin-right: 10px;
   cursor: pointer;
+  position: relative;
 }
 
 .ashvsevil img {
   border-radius: 20px;
   width: 100%;
   height: 100%;
+}
+
+.ashvsevilText {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-left: 53%;
+  margin-top: 7%;
+}
+
+.ashvsevilText span {
+  font-size: 12px;
+}
+
+#elipsisEvil {
+  position: absolute;
+  margin-top: 8%;
+  font-size: 25px;
+  margin-left: 66.5%;
 }
 
 .continue {
@@ -1039,7 +1080,7 @@ body {
 }
 
 .redNotice {
-  width: 40%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1054,7 +1095,7 @@ body {
 
 .extraction {
   margin-left: 10px;
-  width: 40%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1070,7 +1111,7 @@ body {
 
 .theAdamProject {
   margin-left: 10px;
-  width: 40%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1086,7 +1127,7 @@ body {
 
 .theOldGuard {
   margin-left: 10px;
-  width: 40%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
