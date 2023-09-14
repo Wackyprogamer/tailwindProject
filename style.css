@@ -624,6 +624,11 @@ video {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.oldGuardText, .theAdamProjectText, .extractionText, .redNoticeText, .continue h4, .ashvsevilText span, .ashvsevilText, .moneyHeistText span, .moneyHeistText, .readyPlayerOneText Span, .readyPlayerOneText, .BrooklynText span, .BrooklynText, .popcorn h4, #peakyButton, .username h6, .username h4, .witcherText, .nightAgentText, .shadowText, .nav {
+  color: #e3e3e3;
+  font-family: Graphique, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -639,10 +644,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border-radius: 30px;
-  font-size: 20px;
-  margin-top: 300px;
-  margin-bottom: 300px;
+  border-radius: 60px;
+  font-size: 30px;
+  margin-top: 380px;
+  margin-bottom: 380px;
+  padding-right: 50px;
 }
 
 .card i {
@@ -660,10 +666,12 @@ body {
 }
 
 .logo {
-  font-size: 50px;
-  color: #AB040D;
   padding: 20px 0;
   cursor: pointer;
+}
+
+.logo img {
+  opacity: 1;
 }
 
 .nav {
@@ -888,13 +896,12 @@ body {
 }
 
 .username h4 {
-  color: black;
   font-size: 20px;
 }
 
 .highlight {
   width: 100%;
-  height: 40%;
+  height: 45%;
   margin-top: 20px;
   padding-bottom: 0px;
   -o-object-fit: cover;
@@ -907,6 +914,43 @@ body {
 
 #peakyButton {
   position: absolute;
+  width: 13%;
+  height: 15%;
+  margin-top: 38%;
+  margin-left: 6%;
+  background-color: red;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#addWatchList {
+  position: absolute;
+  color: white;
+  width: 8%;
+  height: 15%;
+  margin-top: 38%;
+  margin-left: 20%;
+  background-color: gray;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.highlightFeatures {
+  width: 50%;
+  height: 18%;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 48%;
+}
+
+.firstPeaky {
+  border: 1px solid;
+  border-color: red;
+  border-radius: 20px;
+}
+
+.secondPeaky {
+  margin: 0 10px;
 }
 
 .highlight img {
@@ -921,7 +965,6 @@ body {
 
 .popcorn h4 {
   font-size: 25px;
-  color: white;
 }
 
 .popcornTV {
@@ -938,7 +981,6 @@ body {
 }
 
 .BrooklynText {
-  color: white;
   position: absolute;
   margin-top: 7%;
   margin-left: 1%;
@@ -981,7 +1023,6 @@ body {
 }
 
 .readyPlayerOneText {
-  color: white;
   position: absolute;
   margin-left: 270px;
   margin-top: 7%;
@@ -1019,7 +1060,6 @@ body {
 
 .moneyHeistText {
   position: absolute;
-  color: white;
   font-size: 20px;
   margin-left: 35.6%;
   margin-top: 7%;
@@ -1057,7 +1097,6 @@ body {
 
 .ashvsevilText {
   position: absolute;
-  color: white;
   font-size: 20px;
   margin-left: 53%;
   margin-top: 7%;
@@ -1082,7 +1121,6 @@ body {
 
 .continue h4 {
   font-size: 25px;
-  color: white;
 }
 
 .continueTV {
@@ -1105,7 +1143,6 @@ body {
 }
 
 .redNoticeText {
-  color: white;
   position: absolute;
   margin-top: 5.5%;
   margin-left: 1%;
@@ -1130,7 +1167,6 @@ body {
 }
 
 .extractionText {
-  color: white;
   position: absolute;
   margin-top: 5.5%;
   margin-left: 18%;
@@ -1155,7 +1191,6 @@ body {
 }
 
 .theAdamProjectText {
-  color: white;
   position: absolute;
   margin-top: 5.5%;
   margin-left: 35.5%;
@@ -1180,7 +1215,6 @@ body {
 }
 
 .oldGuardText {
-  color: white;
   position: absolute;
   margin-top: 5.5%;
   margin-left: 53.5%;
