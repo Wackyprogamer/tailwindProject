@@ -110,6 +110,7 @@ padding: 10px 0;
 .trailerheader {
     font-size: 25px;
     padding: 10px;
+    @extend %fontColor;
 }
 
 .trailerheader i {

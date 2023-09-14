@@ -624,7 +624,7 @@ video {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.oldGuardText, .theAdamProjectText, .extractionText, .redNoticeText, .continue h4, .ashvsevilText span, .ashvsevilText, .moneyHeistText span, .moneyHeistText, .readyPlayerOneText Span, .readyPlayerOneText, .BrooklynText span, .BrooklynText, .popcorn h4, #peakyButton, .username h6, .username h4, .witcherText, .nightAgentText, .shadowText, .nav {
+.oldGuardText, .theAdamProjectText, .extractionText, .redNoticeText, .continue h4, .ashvsevilText span, .ashvsevilText, .moneyHeistText span, .moneyHeistText, .readyPlayerOneText Span, .readyPlayerOneText, .BrooklynText span, .BrooklynText, .popcorn h4, #peakyButton, .username h6, .username h4, .witcherText, .nightAgentText, .shadowText, .trailerheader, .nav {
   color: #e3e3e3;
   font-family: Graphique, sans-serif;
 }
